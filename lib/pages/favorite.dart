@@ -6,7 +6,10 @@ class Favorite extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("Favorite"),
+      child: Text(
+        "Favorite",
+        style: TextStyle(color: Colors.white),
+      ),
     );
   }
 }
